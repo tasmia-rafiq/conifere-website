@@ -2310,10 +2310,10 @@ h6 { font-size: 16px; }
 		align-items: center;
 	}
 	.cavani_tm_home .cavani_tm_home_img_only {
-		margin-top: -50px;
+		margin-top: -10rem;
 		margin-left: -10px;
-		width: 55%;
-		height: 40%;
+		width: 60%;
+		height: 35%;
 		margin-bottom: 30px;
 	}
 
@@ -2357,7 +2357,7 @@ h6 { font-size: 16px; }
 
 		/* Homepage Image */
 		.cavani_tm_home .cavani_tm_home_img_only {
-			margin-top: -10rem;
+			margin-top: -12rem;
 			margin-left: -5px;
 			width: 75%;
 			height: 30%;
