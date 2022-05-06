@@ -2253,6 +2253,18 @@ h6 { font-size: 16px; }
 	.cavani_tm_mainpart .author_image{display: none;}
 	.cavani_tm_mainpart{top: 55px;left: 0px;right: 0px;bottom: 0px;}
 	.cavani_tm_mainpart .main_content{width: 100%;}
+	/* Update */
+	.cavani_tm_home .cavani_tm_home_img_only{
+		/* display: flex;
+		flex-direction: row; */
+		background-image: url('../img/Conifere\ studio.jpg');
+		width: 35%;
+		height: 80%;
+		/* position: relative; */
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 	.cavani_tm_home .content{padding: 0px 20px;}
 	/* .cavani_tm_mainpart{height: 75%;margin-top: 10px;} */
 	.cavani_tm_home .name{font-size: 40px;}
