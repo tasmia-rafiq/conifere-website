@@ -2255,12 +2255,11 @@ h6 { font-size: 16px; }
 	.cavani_tm_mainpart .main_content{width: 100%;}
 	/* Update */
 	.cavani_tm_home .cavani_tm_home_img_only{
-		/* display: flex;
-		flex-direction: row; */
 		background-image: url('../img/Conifere\ studio.jpg');
+		margin-top: -20px;
+		margin-left: 20px;
 		width: 35%;
 		height: 80%;
-		/* position: relative; */
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -2302,6 +2301,22 @@ h6 { font-size: 16px; }
 	.cavani_tm_modalbox .news_popup_informations .details h3{font-size: 20px;}
 }
 @media (max-width: 768px) {
+	/* Update */
+	.cavani_tm_home {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.cavani_tm_home .cavani_tm_home_img_only {
+		margin-top: -50px;
+		margin-left: -10px;
+		width: 55%;
+		height: 40%;
+		margin-bottom: 30px;
+	}
+
 	.cavani_tm_topbar .logo h3{
 		font-size: 20px;
 	}
