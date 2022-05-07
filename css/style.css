@@ -900,7 +900,7 @@ h6 { font-size: 16px; }
 	width: 40%;
 }
 .cavani_tm_about .skills .language{
-	width: 50%;
+	width: 100%;
 }
 .cavani_progress{
 	width: 100%;
@@ -960,6 +960,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	margin-top: 62px;
+	padding-left: 10rem;
 }
 .circular_progress_bar ul{
 	margin: 0px 0px 0px -20px;
@@ -970,6 +971,9 @@ h6 { font-size: 16px; }
 	width: 33.3333%;
 	float: left;
 	padding-left: 20px;
+}
+.circular_progress_bar .cp2{
+	padding-left: 50px;
 }
 .circular_progress_bar .myCircle{
 	position: relative;
@@ -2402,6 +2406,11 @@ h6 { font-size: 16px; }
 	}
 }
 @media (max-width:557px) {
+	/* Languages */
+	.circular_progress_bar{
+		padding-left: 7rem;
+	}
+
 	.cavani_tm_about .cavani_servizi_button.servizi_songs_btn a {
 		padding: 3px 3px;
 		font-size: 12px;
@@ -2418,6 +2427,17 @@ h6 { font-size: 16px; }
 		}
 }
 @media (max-width:437px) {
+	/* Languages */
+	.circular_progress_bar {
+		padding-left: 5rem;
+	}
+	.circular_progress_bar .cp2{
+		padding-left: 3rem;
+	}
+	.circular_progress_bar .cp2 .title{
+		margin-left: 0.8rem;
+	}
+
 	.cavani_tm_about .cavani_servizi_button.servizi_songs_btn a {
 		padding: 6px 0px;
 		font-size: 11px;
