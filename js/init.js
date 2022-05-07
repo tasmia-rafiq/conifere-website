@@ -12,6 +12,7 @@ jQuery(document).ready(function(){
 	// here all ready functions
 	
 	cavani_tm_page_transition();
+	// privacy();
 	cavani_tm_trigger_menu();
 	cavani_tm_my_progress();
 	cavani_tm_circular_progress();
@@ -40,6 +41,70 @@ jQuery(document).ready(function(){
 // -----------------------------------------------------
 // -------------   PAGE TRANSITION    ------------------
 // -----------------------------------------------------
+function privacy(){
+	var wholeMenu = jQuery('.cavani_tm_header .menu .transition_link a');
+	var headerSpan = jQuery('.menu span');
+	var pButton = jQuery('.privacy-policy .transition_link a');
+	var homeBtn = document.getElementById('homeBtn');
+
+	pButton.on('click', function(){
+		if(!wholeMenu.hasClass('active')){
+			headerSpan.removeClass('ccc');
+		}
+		// wholeMenu.on('hover', function(){
+		// 	headerSpan.addClass('ccc');
+		// })
+		// wholeMenu.classList.remove('HoverClass1', 'HoverClass2');
+		// wholeMenu.classList.add('HoverClass1');
+		$("a").bind('mouseover', function() {
+			var old_color = $(this).css("background-color");
+			$(this)[0].style.backgroundColor = '#333';
+			$("a").bind('mouseout', function () {
+				 $(this)[0].style.backgroundColor = 'transparent';
+			});
+		});
+
+		wholeMenu.on('click', function(){
+			headerSpan.addClass('ccc');
+		})
+	})
+	return false;
+}
+privacy();
+
+// function privacy(){
+// 	var section 		= jQuery('.cavani_tm_section');
+// 	var privacyLink 	= jQuery('.privacy-policy p');
+// 	var pButton			= jQuery('.privacy-policy a');
+// 	var wrapper 		= jQuery('.cavani_tm_all_wrap');
+// 	var enter	 		= wrapper.data('enter');
+// 	var exit		 	= wrapper.data('exit');
+
+// 	pButton.on('click',function(){
+// 		var element 	= jQuery(this);
+// 		var href		= element.attr('href');
+// 		// if(element.parent().hasClass('cavani_tm_button')){
+// 		// 	jQuery('.copyright .privacy-policy a[href="'+href+'"]').trigger('click');
+// 		// 	hashtag();
+// 		// 	return false;
+// 		// }
+// 		var sectionID 	= jQuery(href);
+// 		var parent	 	= element.closest('li');
+// 			if(!parent.hasClass('active')) {
+// 				privacyLink.removeClass('active');
+// 				wrapper.find(section).removeClass('animated '+enter);
+// 				if(wrapper.hasClass('opened')) {
+// 					wrapper.find(section).addClass('animated '+exit);
+// 				}
+// 				parent.addClass('active');
+// 				wrapper.addClass('opened');
+// 				wrapper.find(sectionID).removeClass('animated '+exit).addClass('animated '+enter);
+// 				jQuery(section).addClass('hidden');
+// 				jQuery(sectionID).removeClass('hidden').addClass('active');
+// 			}
+// 		return false;
+// 	});
+// }
 
 function cavani_tm_page_transition(){
 	
