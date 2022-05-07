@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
 	// here all ready functions
 	
 	cavani_tm_page_transition();
-	// privacy();
+	privacy();
 	cavani_tm_trigger_menu();
 	cavani_tm_my_progress();
 	cavani_tm_circular_progress();
@@ -51,17 +51,13 @@ function privacy(){
 		if(!wholeMenu.hasClass('active')){
 			headerSpan.removeClass('ccc');
 		}
-		// wholeMenu.on('hover', function(){
-		// 	headerSpan.addClass('ccc');
-		// })
-		// wholeMenu.classList.remove('HoverClass1', 'HoverClass2');
-		// wholeMenu.classList.add('HoverClass1');
-		$("li").bind('mouseover', function() {
+		
+		$("a").bind('mouseover', function() {
 			// var old_color = $(this).css("background-color");
 
 			// $(this)[0].style.backgroundColor = '#333';
 
-			$("li").bind('mouseout', function () {
+			$("a").bind('mouseout', function () {
 				 $(this)[0].style.backgroundColor = 'transparent';
 			});
 		});
@@ -72,7 +68,7 @@ function privacy(){
 	})
 	return false;
 }
-privacy();
+
 
 // function privacy(){
 // 	var section 		= jQuery('.cavani_tm_section');

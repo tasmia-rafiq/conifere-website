@@ -257,6 +257,29 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
+/*	Privacy Policy
+/*---------------------------------------------------*/
+.privacy_policy_wrapper .cavani_tm_title {
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.privacy_policy_wrapper h5{
+	padding: 25px 0 20px 0;
+	font-size: 18px;
+}
+.privacy_policy_wrapper h6{
+	padding: 20px 0;
+}
+.privacy_policy_wrapper p {
+	padding: 10px 0;
+	color:#5c5b5b;
+}
+.privacy_policy_wrapper strong {
+	color: #333;
+}
+
+
+/*---------------------------------------------------*/
 /*	02) CAVANI HEADER
 /*---------------------------------------------------*/
 
@@ -2392,6 +2415,20 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .wrapper .servizi_music_videos {
 		padding-left: 40px;
 	}
+
+	/* Privacy Policy */
+	.privacy_policy_wrapper p {
+		font-size: 13px;
+	}
+	.privacy_policy_wrapper h5{
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+	.privacy_policy_wrapper h6 {
+		font-size: 14px;
+		padding: 10px 0;
+	}
+
 		/* Homepage Image */
 		.cavani_tm_home .cavani_tm_home_img_only {
 			margin-top: -12rem;
