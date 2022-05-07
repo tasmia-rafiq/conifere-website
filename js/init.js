@@ -58,7 +58,8 @@ function privacy(){
 		// wholeMenu.classList.add('HoverClass1');
 		$("a").bind('mouseover', function() {
 			var old_color = $(this).css("background-color");
-			$(this)[0].style.backgroundColor = '#333';
+			// $(this)[0].style.backgroundColor = '#333';
+			document.getElementById("homeBtn").style.color = 'blue';
 			$("a").bind('mouseout', function () {
 				 $(this)[0].style.backgroundColor = 'transparent';
 			});
