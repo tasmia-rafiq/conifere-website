@@ -2481,6 +2481,20 @@ h6 { font-size: 16px; }
 	}
 }
 @media (max-width:363px) {
+	/* Languages */
+		.circular_progress_bar {
+			padding-left: 3rem;
+		}
+	
+		.circular_progress_bar .cp2 {
+			padding-left: 2rem;
+		}
+	
+		.circular_progress_bar .cp2 .title {
+			margin-left: 0.4rem;
+		}
+
+
 	.cavani_tm_about .wrapper .servizi_music_videos {
 		padding-left: 30px;
 	}
