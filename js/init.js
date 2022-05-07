@@ -56,11 +56,12 @@ function privacy(){
 		// })
 		// wholeMenu.classList.remove('HoverClass1', 'HoverClass2');
 		// wholeMenu.classList.add('HoverClass1');
-		$("a").bind('mouseover', function() {
-			var old_color = $(this).css("background-color");
+		$("li").bind('mouseover', function() {
+			// var old_color = $(this).css("background-color");
+
 			// $(this)[0].style.backgroundColor = '#333';
-			document.getElementById("homeBtn").style.color = 'blue';
-			$("a").bind('mouseout', function () {
+
+			$("li").bind('mouseout', function () {
 				 $(this)[0].style.backgroundColor = 'transparent';
 			});
 		});
