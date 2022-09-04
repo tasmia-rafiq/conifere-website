@@ -26,6 +26,11 @@
 /*	01) CAVANI BASE
 /*---------------------------------------------------*/
 
+.cavani_tm_portfolio .portfolio_list ul .last-list{
+	width: 50.1%;
+	margin-bottom: 5px;
+}
+
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -539,6 +544,7 @@ h6 { font-size: 16px; }
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	background-image: url('../img/homepage/main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -797,7 +803,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_about .biography .right ul li,
 .cavani_tm_about .biography .right p{
-	margin: 0px 0px 8px 0px;
+	/* margin: 0px 0px 8px 0px; */
 	font-size: 14px;
 	padding-top: 7px;
 	width: 100%;
@@ -2245,7 +2251,7 @@ h6 { font-size: 16px; }
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("../img/Conifere\ studio.jpg");
+	background-image: url("../img/homepage/main.jpg");
 }
 
 /*---------------------------------------------------*/
@@ -2312,7 +2318,7 @@ h6 { font-size: 16px; }
 	.cavani_tm_mainpart .main_content{width: 100%;}
 	/* Update */
 	.cavani_tm_home .cavani_tm_home_img_only{
-		background-image: url('../img/Conifere\ studio.jpg');
+		background-image: url('../img/homepage/main.jpg');
 		margin-top: -20px;
 		margin-left: 20px;
 		width: 35%;
@@ -2389,6 +2395,7 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .partners .list ul li{width: 50%;}
 	.cavani_tm_portfolio .portfolio_list ul{margin: 0px;}
 	.cavani_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.cavani_tm_portfolio .portfolio_list ul .last-list{width: 100%;}
 	.cavani_tm_news .news_list ul{margin: 0px;}
 	.cavani_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 	.cavani_tm_news .news_list ul li .details{padding: 15px 20px 0px 20px;}
