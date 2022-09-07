@@ -26,6 +26,14 @@
 /*	01) CAVANI BASE
 /*---------------------------------------------------*/
 
+.cavani_tm_portfolio .portfolio_list ul li.v1{
+	margin-bottom: 227px;
+}
+
+.instagram-media{
+	min-width: 0 !important;
+}
+
 .cavani_tm_portfolio .portfolio_list ul .last-list{
 	width: 50.1%;
 	margin-bottom: 5px;
@@ -1353,7 +1361,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_list ul li{
 	margin: 0px 0px 30px 0px;
-	width: 50%;
+	width: 33.333%;
 	float: left;
 	padding-left: 10px;
 }
@@ -1439,13 +1447,13 @@ h6 { font-size: 16px; }
 } */
 .cavani_tm_portfolio .portfolio_list ul li .details{
 	position: absolute;
-	bottom: -100px;
+	bottom: -130px;
 	left: 20px;
 	right: 20px;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
 	z-index: 3;
-	padding: 15px 5px 15px 15px;
+	padding: 5px 5px 5px 10px;
 	border-radius: 5px;
 	
 	-webkit-transition: all .3s ease;
@@ -1478,15 +1486,15 @@ h6 { font-size: 16px; }
 	}
 }
 .cavani_tm_portfolio .portfolio_list ul li .list_inner:hover .details{
-	bottom: 20px;
+	bottom: 15px;
 }
 .cavani_tm_portfolio .portfolio_list ul li .details h3{
-	font-size: 16px;
-    margin-bottom: 2px;
+	font-size: 12px;
+    margin-bottom: 0px;
     font-weight: 600;
 }
 .cavani_tm_portfolio .portfolio_list ul li .details span{
-	font-size: 14px;
+	font-size: 10px;
 }
 .cavani_tm_modalbox{
 	position: fixed;
@@ -2345,7 +2353,9 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .resume .wrapper{flex-direction: column;align-items: baseline;}
 	.cavani_tm_about .resume .education{width: 100%;margin-bottom: 60px;}
 	.cavani_tm_about .resume .experience{width: 100%;}
-	.cavani_tm_portfolio .portfolio_list ul li{width: 50%;}
+	.cavani_tm_portfolio .portfolio_list ul{margin-left: 0;}
+	.cavani_tm_portfolio .portfolio_list ul li{width: 50%; padding: 0 40px;}
+	.cavani_tm_portfolio .portfolio_list ul li.v1{margin-bottom: 30px;}
 	.cavani_tm_news .news_list ul li{width: 50%;}
 	.cavani_tm_contact .short_info ul{margin: 0px;}
 	.cavani_tm_contact .short_info ul li{width: 100%;padding-left: 0px;}
@@ -2394,7 +2404,7 @@ h6 { font-size: 16px; }
 	.circular_progress_bar .title{max-width: 80px;}
 	.cavani_tm_about .partners .list ul li{width: 50%;}
 	.cavani_tm_portfolio .portfolio_list ul{margin: 0px;}
-	.cavani_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.cavani_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 10px; padding-right: 10px;}
 	.cavani_tm_portfolio .portfolio_list ul .last-list{width: 100%;}
 	.cavani_tm_news .news_list ul{margin: 0px;}
 	.cavani_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
