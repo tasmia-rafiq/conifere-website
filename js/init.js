@@ -448,37 +448,37 @@ function popupInstagram() {
 
 popupInstagram();
 
-function cavani_tm_portfolio(){
+// function cavani_tm_portfolio(){
 
-	"use strict";
+// 	"use strict";
 	
-	if(jQuery().isotope) {
+// 	if(jQuery().isotope) {
 
-		// Needed variables
-		var filter		 = jQuery('.cavani_tm_portfolio .portfolio_filter ul');
+// 		// Needed variables
+// 		var filter		 = jQuery('.cavani_tm_portfolio .portfolio_filter ul');
 
-		if(filter.length){
-			// Isotope Filter 
-			filter.find('a').on('click', function(){
-				var element		= jQuery(this);
-				var selector 	= element.attr('data-filter');
-				var list		= element.closest('.cavani_tm_portfolio').find('.portfolio_list').children('ul');
-				list.isotope({ 
-					filter				: selector,
-					animationOptions	: {
-						duration			: 750,
-						easing				: 'linear',
-						queue				: false
-					}
-				});
+// 		if(filter.length){
+// 			// Isotope Filter 
+// 			filter.find('a').on('click', function(){
+// 				var element		= jQuery(this);
+// 				var selector 	= element.attr('data-filter');
+// 				var list		= element.closest('.cavani_tm_portfolio').find('.portfolio_list').children('ul');
+// 				list.isotope({ 
+// 					filter				: selector,
+// 					animationOptions	: {
+// 						duration			: 750,
+// 						easing				: 'linear',
+// 						queue				: false
+// 					}
+// 				});
 				
-				filter.find('a').removeClass('current');
-				element.addClass('current');
-				return false;
-			});	
-		}
-	}
-}
+// 				filter.find('a').removeClass('current');
+// 				element.addClass('current');
+// 				return false;
+// 			});	
+// 		}
+// 	}
+// }
 
 // -----------------------------------------------------
 // ---------------   DATA IMAGES    --------------------
@@ -638,3 +638,228 @@ function cavani_tm_ripple(){
 		perturbance: 0.04
 	});
 }
+
+function toggleSport() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!sport) alert("error: not found!");
+	else {
+		if(sport.style.display == "none"){
+        	sport.style.display = "block";
+			eventi.style.display = "none";
+			digital.style.display = "none";
+			matrimoni.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	sport.style.display = "block";
+			eventi.style.display = "none";
+			digital.style.display = "none";
+			matrimoni.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleEventi() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+
+	if(!eventi) alert("error: not found!");
+	else {
+		if(eventi.style.display == "none"){
+        	eventi.style.display = "block";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			matrimoni.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	eventi.style.display = "block";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			matrimoni.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleMatrimoni() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!matrimoni) alert("error: not found!");
+	else {
+		if(matrimoni.style.display == "none"){
+        	matrimoni.style.display = "block";
+			eventi.style.display = "none";
+			digital.style.display = "none";
+			sport.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	matrimoni.style.display = "block";
+			eventi.style.display = "none";
+			digital.style.display = "none";
+			sport.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleDigital() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!digital) alert("error: not found!");
+	else {
+		if(digital.style.display == "none"){
+        	digital.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	digital.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleModa() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!moda) alert("error: not found!");
+	else {
+		if(moda.style.display == "none"){
+        	moda.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	moda.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			musica.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleMusica() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!musica) alert("error: not found!");
+	else {
+		if(musica.style.display == "none"){
+        	musica.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			moda.style.display = "none";
+			vlog.style.display = "none";
+		}
+		else{
+        	musica.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			moda.style.display = "none";
+			vlog.style.display = "none";
+		}
+   }
+}
+
+function toggleVlog() {
+	var eventi = document.getElementById('eventiItem');
+	var sport = document.getElementById('sportItem');
+	var digital = document.getElementById('digitalItem');
+	var matrimoni = document.getElementById('matrimoniItem');
+	var moda = document.getElementById('modaItem');
+	var musica = document.getElementById('musicaItem');
+	var vlog = document.getElementById('vlogItem');
+	
+	if(!vlog) alert("error: not found!");
+	else {
+		if(vlog.style.display == "none"){
+        	vlog.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+		}
+		else{
+        	vlog.style.display = "block";
+			eventi.style.display = "none";
+			matrimoni.style.display = "none";
+			sport.style.display = "none";
+			digital.style.display = "none";
+			moda.style.display = "none";
+			musica.style.display = "none";
+		}
+   }
+}
+

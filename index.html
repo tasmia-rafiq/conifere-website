@@ -668,17 +668,19 @@
 							</div>
 							<div class="portfolio_filter">
 								<ul>
-									<!-- <li><a href="#" class="current" data-filter="*">All</a></li>
-									<li><a href="#" data-filter=".vimeo">Video Verticali</a></li>
+									<!-- <li><a href="#" class="current" data-filter="*">All</a></li> -->
+									<!-- <li><a href="#" data-filter=".vimeo">Video Verticali</a></li>
 									<li><a href="#" data-filter=".youtube">Video Orizzontali</a></li> -->
 
-									<li><a href="#" data-filter=".vimeo.sport">Sport</a></li>
-									<li><a href="#" data-filter=".vimeo.eventi">Eventi</a></li>
-									<li><a href="#" data-filter=".youtube.matrimoni">Matrimoni</a></li>
-									<li><a href="#" data-filter=".vimeo.digital">Digital</a></li>
-									<li><a href="#" data-filter=".vimeo.musica">Musica</a></li>
-									<li><a href="#" data-filter=".vimeo.moda">Moda</a></li>
-									<li><a href="#" data-filter=".youtube.vlog">Vlog</a></li>
+									<li><a href="javascript: toggleSport()" data-filter=".vimeo.sport">Sport</a></li>
+									<li><a href="javascript: toggleEventi()" data-filter=".vimeo.eventi">Eventi</a></li>
+									<li><a href="javascript: toggleMatrimoni()">Matrimoni</a>
+									</li>
+									<li><a href="javascript: toggleDigital()" data-filter=".vimeo.digital">Digital</a>
+									</li>
+									<li><a href="javascript: toggleMusica()" data-filter=".vimeo.musica">Musica</a></li>
+									<li><a href="javascript: toggleModa()" data-filter=".vimeo.moda">Moda</a></li>
+									<li><a href="javascript: toggleVlog()" data-filter=".youtube.vlog">Vlog</a></li>
 
 									<!-- <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
 									<li><a href="#" data-filter=".image">Image</a></li>
@@ -686,10 +688,7 @@
 								</ul>
 							</div>
 							<div class="portfolio_list">
-								<ul class="gallery_zoom">
-
-									<!-- New Videos -->
-
+								<ul class="gallery_zoom" id="sportItem">
 									<!-- 1. Sport -->
 									<li class="vimeo sport">
 										<div class="list_inner">
@@ -823,6 +822,11 @@
 											</div>
 										</div>
 									</li>
+								</ul>
+
+								<ul class="gallery_zoom" id="eventiItem">
+
+									<!-- New Videos -->
 
 									<!-- 2. Eventi -->
 									<li class="vimeo eventi eventi1">
@@ -2423,6 +2427,35 @@
 										</div>
 									</li>
 
+									<!-- <li class="youtube vlog" style="display: inline;">
+										<div class="list_inner">
+											<div class="image">
+												<span class="icon"><i class="icon-youtube-play"></i></span>
+												<div class="details details-yt"
+													style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
+													<h3>Carlo - Vlog</h3>
+													<div class="cavani_servizi_button servizi_songs_btn">
+														<a target="_blank"
+															href="https://www.youtube.com/channel/UCQb4ZYex2afzya2FiD7zRFA/videos"
+															style="padding:10px 10px; font-size: 14px;">
+															<p><strong>Carlo Albertz YouTube</strong></p>
+														</a>
+													</div>
+												</div>
+
+												<iframe width="600" height="315"
+													src="https://www.youtube.com/embed/pPJZjbxu8z0"
+													title="YouTube video player" frameborder="0"
+													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+													allowfullscreen></iframe>
+												<a class="cavani_tm_full_link popup-youtube"
+																						href="https://www.youtube.com/watch?v=7e90gBu4pas"></a> 
+							</div>
+						</div>
+						</li> -->
+								</ul>
+
+								<ul class="gallery_zoom" id="matrimoniItem">
 									<!-- 3. Matrimoni - Vimeo Vid -->
 									<li class="youtube matrimoni" style="display: inline; background-color: #000;">
 										<div class="list_inner">
@@ -2442,13 +2475,13 @@
 									</li>
 
 									<!-- New Videos/ -->
+								</ul>
 
+								<ul class="gallery_zoom" id="digitalItem">
 									<!-- 4. Digital -->
 									<li class="vimeo digital">
 										<div class="list_inner">
 											<div class="image">
-												<!-- <img src="img/thumbs/1-1.jpg" alt="" /> -->
-												<!-- <div class="main" data-img-url="img/portfolio/2.jpg"></div> -->
 												<span class="icon"><i class="icon-instagram-1"></i></span>
 												<div class="details">
 													<h3>Not Just Analytics - Digital</h3>
@@ -2560,7 +2593,9 @@
 											</div>
 										</div>
 									</li>
+								</ul>
 
+								<ul class="gallery_zoom" id="musicaItem">
 									<!-- 5. Musica -->
 									<li class="vimeo musica">
 										<div class="list_inner">
@@ -2678,7 +2713,9 @@
 											</div>
 										</div>
 									</li>
+								</ul>
 
+								<ul class="gallery_zoom" id="modaItem">
 									<!-- 6. Moda -->
 									<li class="vimeo moda">
 										<div class="list_inner">
@@ -2795,7 +2832,9 @@
 											</div>
 										</div>
 									</li>
+								</ul>
 
+								<ul class="gallery_zoom" id="vlogItem">
 									<!-- 7. Vlog - YouTube Videos -->
 									<li class="youtube vlog v1">
 										<div class="list_inner">
@@ -2871,33 +2910,6 @@
 											</div>
 										</div>
 									</li>
-
-									<!-- <li class="youtube vlog" style="display: inline;">
-										<div class="list_inner">
-											<div class="image">
-												<span class="icon"><i class="icon-youtube-play"></i></span>
-												<div class="details details-yt"
-													style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
-													<h3>Carlo - Vlog</h3>
-													<div class="cavani_servizi_button servizi_songs_btn">
-														<a target="_blank"
-															href="https://www.youtube.com/channel/UCQb4ZYex2afzya2FiD7zRFA/videos"
-															style="padding:10px 10px; font-size: 14px;">
-															<p><strong>Carlo Albertz YouTube</strong></p>
-														</a>
-													</div>
-												</div>
-
-												<iframe width="600" height="315"
-													src="https://www.youtube.com/embed/pPJZjbxu8z0"
-													title="YouTube video player" frameborder="0"
-													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-													allowfullscreen></iframe>
-												<a class="cavani_tm_full_link popup-youtube"
-																						href="https://www.youtube.com/watch?v=7e90gBu4pas"></a> 
-							</div>
-						</div>
-						</li> -->
 								</ul>
 							</div>
 						</div>

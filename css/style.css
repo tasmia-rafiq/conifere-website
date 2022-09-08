@@ -26,6 +26,15 @@
 /*	01) CAVANI BASE
 /*---------------------------------------------------*/
 
+#eventiItem,
+#matrimoniItem,
+#digitalItem,
+#musicaItem,
+#modaItem,
+#vlogItem{
+	display: none;
+}
+
 .cavani_tm_portfolio .portfolio_list ul .youtube {
 	width: 50%;
 }
