@@ -2317,10 +2317,16 @@ h6 { font-size: 16px; }
 	.cavani_tm_modalbox .close .svg{width: 40px;height: 40px;}
 }
 @media (max-width: 382px){
-	.cavani_tm_portfolio .portfolio_filter ul li {
-		margin-right: 20px !important;
+	/* .cavani_tm_portfolio .portfolio_filter ul li:nth-child(1) {
+		margin-right: 38px !important;
+	} */
+	.cavani_tm_portfolio .portfolio_filter ul li:nth-child(5) {
+		margin-right: 18px !important;
 	}
-	.cavani_tm_portfolio .portfolio_filter ul li a{font-size: 11px;}
+	.cavani_tm_portfolio .portfolio_filter ul li:nth-child(6) {
+		margin-right: 33px !important;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul li a{font-size: 13px;}
 }
 @media (max-width: 1040px) {
 	.cavani_tm_about .cavani_servizi_button.servizi_songs_btn a {
