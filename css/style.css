@@ -2367,6 +2367,7 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .resume .wrapper{flex-direction: column;align-items: baseline;}
 	.cavani_tm_about .resume .education{width: 100%;margin-bottom: 60px;}
 	.cavani_tm_about .resume .experience{width: 100%;}
+	.cavani_tm_portfolio .portfolio_filter ul li:nth-child(5){margin-right: 16.9px;}
 	.cavani_tm_portfolio .portfolio_list ul{margin-left: 0;}
 	.cavani_tm_portfolio .portfolio_list ul li{width: 50%; padding: 0 40px;}
 	.cavani_tm_portfolio .portfolio_list ul li.v1{margin-bottom: 30px;}
