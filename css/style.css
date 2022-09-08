@@ -2316,6 +2316,12 @@ h6 { font-size: 16px; }
 	.cavani_tm_modalbox .description_wrap{padding: 30px;}
 	.cavani_tm_modalbox .close .svg{width: 40px;height: 40px;}
 }
+@media (max-width: 382px){
+	.cavani_tm_portfolio .portfolio_filter ul li {
+		margin-right: 20px !important;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul li a{font-size: 11px;}
+}
 @media (max-width: 1040px) {
 	.cavani_tm_about .cavani_servizi_button.servizi_songs_btn a {
 		padding: 10px 3px;
@@ -2367,8 +2373,7 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .resume .wrapper{flex-direction: column;align-items: baseline;}
 	.cavani_tm_about .resume .education{width: 100%;margin-bottom: 60px;}
 	.cavani_tm_about .resume .experience{width: 100%;}
-	.cavani_tm_portfolio .portfolio_filter ul li:nth-child(5){margin-right: 16.9px;}
-	.cavani_tm_portfolio .portfolio_filter ul li{font-size: 14px;}
+	.cavani_tm_portfolio .portfolio_filter ul li:nth-child(5){margin-right: 16px;}
 	.cavani_tm_portfolio .portfolio_list ul{margin-left: 0;}
 	.cavani_tm_portfolio .portfolio_list ul li{width: 50%; padding: 0 40px;}
 	.cavani_tm_portfolio .portfolio_list ul li.v1{margin-bottom: 30px;}
@@ -2538,43 +2543,3 @@ h6 { font-size: 16px; }
 		width: 110px;
 	}
 }
-
-/* @media (max-width:607px) {
-	.cavani_tm_home .name{font-size: 24px;}
-	.cavani_tm_home .job span{font-size: 12px;}
-	.cavani_tm_home .job b{font-size: 12px;}
-	.cavani_tm_home .line{height: 3px;width: 90px;}
-	.cavani_tm_button a{padding: 10px 10px; font-size: 12px;}
-}
-
-@media(max-width:525px){
-	.cavani_tm_home .name{font-size: 20px;}
-	.cavani_tm_home .job span{font-size: 10px;}
-	.cavani_tm_home .job b{font-size: 10px;}
-	.cavani_tm_home .line{height: 3px;width: 50px;}
-	.cavani_tm_button a{padding: 10px 5px; font-size: 10px;}
-}
-
-@media(max-width:467px){
-	.cavani_tm_home .name{font-size: 16px; margin-bottom: 10px;}
-	.cavani_tm_home .job span{font-size: 9px;}
-	.cavani_tm_home .job b{font-size: 8px;}
-	.cavani_tm_home .line{height: 3px;width: 50px; margin-bottom: 5px;}
-	.cavani_tm_button a{padding: 10px 5px; font-size: 10px; margin-top: -3rem;}
-}
-
-@media(max-width:414px){
-	.cavani_tm_home .name{font-size: 14px; margin-bottom: 10px;}
-	.cavani_tm_home .job span{font-size: 9px;}
-	.cavani_tm_home .job b{font-size: 8px;}
-	.cavani_tm_home .line{height: 3px;width: 50px; margin-bottom: 5px;}
-	.cavani_tm_button a{padding: 5px 5px; font-size: 9px; margin-top: -3rem;}
-}
-
-@media(max-width:386px){
-	.cavani_tm_home .name{font-size: 12px; margin-bottom: 10px;}
-	.cavani_tm_home .job span{font-size: 9px;}
-	.cavani_tm_home .job b{font-size: 8px;}
-	.cavani_tm_home .line{height: 3px;width: 50px; margin-bottom: 5px;}
-	.cavani_tm_button a{padding: 5px 5px; font-size: 8px; margin-top: -3rem;}
-} */
