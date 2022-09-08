@@ -26,8 +26,12 @@
 /*	01) CAVANI BASE
 /*---------------------------------------------------*/
 
+.cavani_tm_portfolio .portfolio_list ul .youtube {
+	width: 50%;
+}
+
 .cavani_tm_portfolio .portfolio_list ul li.v1{
-	margin-bottom: 227px;
+	/* margin-bottom: 227px; */
 }
 
 .instagram-media{
@@ -1357,6 +1361,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_list ul{
 	margin: 0px 0px 0px -30px;
+	display: block;
 	list-style-type: none;
 }
 .cavani_tm_portfolio .portfolio_list ul li{
@@ -2405,7 +2410,7 @@ h6 { font-size: 16px; }
 	.cavani_tm_about .partners .list ul li{width: 50%;}
 	.cavani_tm_portfolio .portfolio_list ul{margin: 0px;}
 	.cavani_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 10px; padding-right: 10px;}
-	.cavani_tm_portfolio .portfolio_list ul .last-list{width: 100%;}
+	.cavani_tm_portfolio .portfolio_list ul .youtube{width: 100%;}
 	.cavani_tm_news .news_list ul{margin: 0px;}
 	.cavani_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 	.cavani_tm_news .news_list ul li .details{padding: 15px 20px 0px 20px;}
